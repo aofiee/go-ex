@@ -1,0 +1,15 @@
+{
+    "Port": ":1234",
+    "DATABASE_ADDRESS": "db",
+    "DATABASE_NAME": "exchange_db",
+    "DATABASE_USER": "root",
+    "DATABASE_PASSWORD": "",
+    "BINANCE_APIKEY": "",
+    "BINANCE_SECRETKEY": "",
+    "BITTREX_APIKEY": "",
+    "BITTREX_SECRETKEY": "",
+    "KRAKEN_APIKEY": "",
+    "KRAKEN_PRIVATEKEY": "",
+    "BLOCKCYPHER_TOKEN": "",
+    "TELEGRAM_TOKEN": ""
+}

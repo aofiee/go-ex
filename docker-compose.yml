@@ -1,0 +1,27 @@
+version: "2.3"
+services:
+  go-ex:
+    build: .
+    ports:
+      - 1234:1234
+  db:
+    image: mysql:5.7
+    volumes:
+      - mysql-data:/var/lib/mysql
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_DATABASE: exchange_db
+      MYSQL_ROOT_PASSWORD: 3nYzRaLtpM4
+    command:
+      ["--character-set-server=utf8", "--collation-server=utf8_general_ci"]
+  pma:
+    image: nazarpc/phpmyadmin
+    ports:
+      - 8080:80
+    environment:
+      UPLOAD_SIZE: 1G
+      MYSQL_HOST: db
+volumes:
+  mysql-data:
+    driver: local
