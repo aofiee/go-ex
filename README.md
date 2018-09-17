@@ -40,7 +40,7 @@ docker-compose up -d
 
 6. Log go app  
    `docker-compose logs go-ex`
-6. Log go app real time  
+6. Log go app force real time   
    `docker-compose logs -f go-ex`
 
 ## Binance Support
