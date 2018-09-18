@@ -2,14 +2,14 @@
 
 ## Connect DB
 
-**db info**
+### db info
 
 - url: 192.168.99.100
 - db: exchange_db
 - user: root
 - pass: 3nYzRaLtpM4
 
-**phpmyadmin**
+### phpmyadmin
 
 - url: http://192.168.99.100:8080
 - user: root
@@ -40,7 +40,8 @@ docker-compose up -d
 
 6. Log go app  
    `docker-compose logs go-ex`
-6. Log go app force real time   
+
+7. Log go app force real time  
    `docker-compose logs -f go-ex`
 
 ## Binance Support
